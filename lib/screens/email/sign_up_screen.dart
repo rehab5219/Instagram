@@ -29,6 +29,9 @@ class _SignUpScreenState extends State<SignUpScreen> {
                   const SizedBox(
                     height: 70,
                   ),
+                  Align(
+                    alignment: Alignment.topCenter,
+                  ),
                   Text(
                     "Sign Up",
                     style: TextStyle(
