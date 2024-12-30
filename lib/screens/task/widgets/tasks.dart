@@ -1,7 +1,6 @@
 import 'package:flutter/material.dart';
 import 'package:percent_indicator/circular_percent_indicator.dart';
 import 'package:project_mobile/model/tasks_progress_data.dart';
-import 'package:project_mobile/screens/task/tasks_section.dart';
 
 class Tasks extends StatelessWidget {
   final TasksProgressData data;

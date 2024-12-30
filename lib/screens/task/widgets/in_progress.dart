@@ -1,7 +1,6 @@
 import 'package:flutter/material.dart';
 import 'package:percent_indicator/linear_percent_indicator.dart';
 import 'package:project_mobile/model/tasks_progress_data.dart';
-import 'package:project_mobile/screens/task/in_progress_section.dart';
 
 class InProgress extends StatelessWidget {
   final TasksProgressData data;

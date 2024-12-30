@@ -1,7 +1,5 @@
 import 'package:flutter/material.dart';
-import 'package:project_mobile/screens/task/in_progress_section.dart';
 import 'package:project_mobile/screens/task/task_screen.dart';
-import 'package:project_mobile/screens/task/tasks_section.dart';
 
 class TaskBottomNavigation extends StatefulWidget {
   const TaskBottomNavigation({super.key});

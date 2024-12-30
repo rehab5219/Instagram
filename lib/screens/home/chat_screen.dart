@@ -1,8 +1,6 @@
 import 'package:flutter/material.dart';
-import 'package:project_mobile/screens/home/chat_section.dart';
 import 'package:project_mobile/screens/home/status_section.dart';
-import 'package:project_mobile/screens/home/widgets/chat_widget.dart';
-import 'package:project_mobile/screens/home/widgets/status_widget.dart';
+import 'chat_section.dart';
 
 class ChatScreen extends StatelessWidget {
   const ChatScreen({super.key});

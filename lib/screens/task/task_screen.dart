@@ -2,7 +2,6 @@ import 'package:flutter/material.dart';
 import 'package:percent_indicator/percent_indicator.dart';
 import 'package:project_mobile/screens/task/in_progress_section.dart';
 import 'package:project_mobile/screens/task/tasks_section.dart';
-import 'package:project_mobile/screens/task/widgets/in_progress.dart';
 
 class TaskScreen extends StatelessWidget {
   const TaskScreen({super.key});

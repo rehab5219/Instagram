@@ -1,15 +1,23 @@
 import 'package:flutter/material.dart';
-import 'package:project_mobile/screens/instagram/homepage_screen.dart';
-class InstagramBottomNavigation extends StatefulWidget {
-  const InstagramBottomNavigation({super.key});
+import '../add_new_post/add_new_post_screen.dart';
+import '../homepage/homepage_screen.dart';
+import '../profile/profile_screen.dart';
+import '../reels/reels_screen.dart';
+import '../search/search_screen.dart';
+class Layout extends StatefulWidget {
+  const Layout({super.key});
 
   @override
-  State<InstagramBottomNavigation> createState() => _InstagramBottomNavigationState();
+  State<Layout> createState() => _LayoutState();
 }
 
-class _InstagramBottomNavigationState extends State<InstagramBottomNavigation> {
+class _LayoutState extends State<Layout> {
   List<Widget> screens = [
     HomepageScreen(),
+    SearchScreen(),
+    AddNewPostScreen(),
+    ReelsScreen(),
+    ProfileScreen(),
   ];
 
   int index = 0;

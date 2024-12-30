@@ -1,5 +1,5 @@
 import 'package:flutter/material.dart';
-import 'package:project_mobile/screens/instagram/instagram_bottom_navigation.dart';
+import '../layout/layout_screen.dart';
 
 class HomepageScreen extends StatelessWidget {
   const HomepageScreen({super.key});
@@ -210,7 +210,7 @@ class HomepageScreen extends StatelessWidget {
                 color: Colors.white,
               ),
             ),
-              InstagramBottomNavigation(),
+              Layout(),
           ],
         ),
       ),

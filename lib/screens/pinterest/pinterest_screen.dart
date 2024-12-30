@@ -1,7 +1,6 @@
 import 'package:flutter/material.dart';
 import 'package:project_mobile/model/picture_data.dart';
 import 'package:project_mobile/screens/pinterest/widget/picture.dart';
-
 class PinterestScreen extends StatelessWidget {
   const PinterestScreen({super.key});
 
